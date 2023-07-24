@@ -1,0 +1,136 @@
+.Upper_card_div{
+    display: flex;
+    flex-direction: column;
+    width: 19.5rem;
+    border-radius: 0.9rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    min-height: 20rem;
+    min-width: 10rem;
+    padding: 1%;
+    overflow: hidden;
+    max-height: 20rem;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 255, 0.422);
+    margin: 1.38%;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.Food_card_img{
+    background-color: rgba(0, 255, 255, 0);
+    height: 100%;
+    width:19.5rem;
+}
+.inner_card_div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5%;
+    border-top-left-radius:2rem ;
+    border-top-right-radius:2rem ;
+    background-color: #2eef9ee0;
+    height: 5rem;
+    width: 20rem;
+    margin-bottom: -5rem;
+    transition: height ;
+    transition-duration: 1s;
+}
+.Food_card_img:hover + .inner_card_div{
+    height: 36rem;
+}
+.inner_card_div:hover{
+    height: 36rem;
+}
+.card_para{
+    text-align: center;
+}
+.Adding_items{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content:center;
+    
+}
+
+.selection_box{
+margin: 2%;
+  font-family: din-round,sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+    width: 45%;
+    text-align: center;
+    padding: 2.5%;
+     background-color: teal;
+     border: none;
+     border-radius: 0.5rem;
+     color: aliceblue;
+     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+     outline: none;
+}
+.Add_button_card{
+    width: 80%;
+}
+
+
+/* CSS */
+.button-19 {
+  appearance: button;
+  background-color: rgb(0, 177, 177);
+  border: solid transparent;
+  border-radius: 10px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 7px 10px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-19:after {
+  background-clip: padding-box;
+  background-color: teal;
+  border: solid transparent;
+  border-radius: 10px;
+  border-width: 0 0 4px;
+  bottom: -8px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.button-19:main,
+.button-19:focus {
+  user-select: auto;
+}
+
+.button-19:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.button-19:disabled {
+  cursor: auto;
+}

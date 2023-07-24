@@ -1,0 +1,40 @@
+.Main_Cart_Page{
+    min-height: 100vh;
+    width: 100%;
+
+    overflow: hidden;
+    background-color: #C6FCE5; 
+}
+.Inner_div_Cart_Page{
+    min-height: 30vh;
+    width: 100%;
+    text-align: center;
+}
+.fs-2{
+    width: fit-content;
+    border-bottom: 4px double black;
+}
+.btn52{
+    font-weight: 600;
+    background-color: rgb(46, 239, 157) !important;
+
+}
+.EMPTY2{
+    font-size: 2rem;
+    height: 100%;
+    width: 100%;
+    padding: 3%;
+}
+.imgempty{
+    min-width: 8%;
+}
+th{
+    border: 2px solid black;
+    background-color: rgb(46, 239, 157) !important;
+    text-align: center;
+}
+td{
+    border: 2px solid black;
+    background-color: rgb(46, 239, 157) !important;
+    text-align: center;
+}

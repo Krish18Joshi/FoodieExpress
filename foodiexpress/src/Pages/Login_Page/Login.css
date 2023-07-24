@@ -1,0 +1,188 @@
+.Main_card_div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+ 
+}
+.swal-modal{
+  background-color: #00c372;
+}
+.swal-icon--success__line + .swal-icon--success__line--long{
+  background-color: #00c372;
+}
+/* .swal-icon--success__line::after + .swal-icon--success__line--long::after{
+  background-color: #00c372;
+}
+.swal-icon--success__line::before + .swal-icon--success__line--long::before{
+  background-color: #00c372;
+} */
+.swal-text{
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.swal-button{
+  background-color: #45fdad;
+}
+.swal-button:hover{
+  background-color: #00ff91 !important;
+}
+.swal-button--confirm{
+  background-color: #2EEF9D;
+
+}
+.swal-icon--success:before{
+  background-color: #00c372 !important;
+}
+.swal-icon--success:after{
+  background-color: #00c372;
+}
+.swal-icon--success__hide-corners{
+  background-color: #00c372;
+}
+
+
+.Sub_div_login{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  height: 100%;
+ min-height: 15rem;
+}
+.Input_box_login{
+  
+    margin: 1rem;
+    width: 100%;
+    max-width: 30rem;
+    height: 3rem;
+    border: none;
+    border-radius: 0.5rem;
+    outline: none;
+    background-color: #2EEF9D;
+}
+.form__input-group {
+    margin: 15px 0;
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+.form__input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: 600 !important;
+    border: 1px solid #00c372;
+    border-radius: 5px;
+    background-color: #2EEF9D;
+    transition: border 0.25s ease-in-out;
+    text-align: center !important;
+    &:focus {
+      text-align: center !important;
+      outline: none;
+      border: 2px solid lighten(#000, 75%);
+    }
+  }
+  
+  
+  .form__input-label {
+   display: flex;
+   justify-content: center;
+    position: absolute;
+    font-size: 1.2rem;
+    font-weight: 500 !important;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    transition: all 0.25s ease-in-out;
+  }
+  
+  .form__input:focus ~ .form__input-label {
+    top: 0;
+    background-color: #45fdad;
+    border-radius: 0.5rem;
+    border: 1.5px solid black ;
+    font-size: 14px;
+    padding: 0 10px;
+  }
+  
+.inner_div_login{
+  
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    height: 100%;
+    min-height: 10rem;
+    background-color: rgba(0, 255, 255, 0);
+}
+.Main_login_div{
+    background-color: #C6FCE5 !important;
+    min-width: 100%;
+    min-height: 20rem;
+}
+
+
+/* CSS */
+.button-88 {
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0.7em 1.4em 0.7em 1.1em;
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(0deg, rgba(20,167,62,1) 0%, rgba(102,247,113,1) 100%);
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+  letter-spacing: 0.05em;
+  border-radius: 1em;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-88:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em #14a73e98;
+}
+
+.button-88:active {
+  box-shadow: 0 0.3em 1em -0.5em #14a73e98;
+}
+.Create_account{
+  color: red;
+  text-decoration: none;
+  font-weight: 600;
+}
+.Create_account:hover{
+  color: green;
+  cursor: pointer;
+}
+.form{
+  width: 100%;
+}
+.button-88{
+  display: flex;
+}
+@media screen and (max-width:500px) {
+
+  .inner_div_login{
+  
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    height: 100%;
+    min-height: 10rem;
+    background-color: rgba(0, 255, 255, 0);
+}
+}

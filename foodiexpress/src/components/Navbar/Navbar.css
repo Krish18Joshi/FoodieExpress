@@ -1,0 +1,199 @@
+.Main_Navbar{
+    padding-top: 0rem;
+    padding-right: 4rem;
+    height: 100%;
+    background-color: #C6FCE5 !important;
+font-size: 1.5rem;
+color: #00f891 !important;
+
+}
+
+.badeg{
+    width: fit-content !important;
+    min-width: 1.5rem;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 228, 80);
+    align-self: center;
+    color: rgb(0, 0, 0);
+    align-content: center;
+    align-items: center;
+    border-radius: 100rem !important;
+    text-align: center !important;
+    height: 1.5rem;
+    font-size: 1.1rem;
+    padding: 0rem !important;
+    margin-top: -40px;
+    margin-left: -25px !important;
+}
+.Inner_Nav_div_user{
+    margin-left: 40%;
+}
+.searchbar{
+    border: 2px solid #00d47c;
+    outline: none !important;
+    outline-offset: none;
+    background-color: #00f891 !important;
+}
+.Inner_Nav_div{
+    text-align: center !important;
+    align-items: center !important;
+
+   
+}
+
+.NavElements{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between;
+margin-left: 40%;
+    text-decoration: none;
+font-weight: 600;
+    color: rgb(0, 237, 138) !important;
+
+}
+.Inner_Nav_div2{
+    margin-left: 32%;
+}
+.second{
+    margin-left: 20% !important;
+}
+.NavElements:hover{
+ 
+    color: rgb(0, 172, 17) !important;
+}
+.img_logo{
+    margin-right: 12%;
+}
+.Nav{
+    margin-left: 5%;
+}
+.outline-success{
+    font-weight: 600;
+    color: #04847c;
+    background-color: aliceblue !important;
+}
+.outline-success:hover{
+    
+    border: 2px solid rgb(2, 164, 164);
+    color: rgb(3, 180, 180);
+}
+@media screen and (max-width:1310px) {
+    .Inner_Nav_div2{
+        margin-left: 20%;
+    }
+    .second{
+        margin-left: 20% !important;
+    }
+}
+@media screen and (max-width:1240px) {
+
+    .Inner_Nav_div_user{
+        margin-left: 45%;
+    }
+    .NavElements{
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-between;
+    margin-left: 19.5%;
+        text-decoration: none;
+    font-weight: 600;
+        color: rgb(0, 255, 149) !important;
+    
+    }
+    .Nav{
+        margin-left: 0%;
+    }
+    .Inner_Nav_div2{
+        margin-left: 11%;
+    }
+    .second{
+        margin-left: 20% !important;
+    }
+}
+@media screen and (max-width:991px) {
+    .Inner_Nav_div2{
+        margin-left: 0% !important;
+    }
+    .Inner_Nav_div_user{
+        margin-left: 0%;
+    }
+    .second{
+        margin-left: 0% !important;
+    }
+    .Main_Navbar{
+        padding-top: 0rem;
+        padding-right: 4%;
+        height: 100%;
+        background-color: #C6FCE5 !important;
+    font-size: 1.5rem;
+    color: #00f891 !important;
+    
+    }
+    .searchbar{
+        border: 2px solid #00d47c;
+        outline: none !important;
+        width: 50%;
+        margin-left: 25%;
+        outline-offset: none;
+        background-color: #00f891 !important;
+    }
+   
+    .NavElements{
+        padding: 0.5rem;
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-between;
+    margin-left:0%;
+        text-decoration: none;
+    font-weight: 600;
+        color: rgb(0, 255, 149) !important;
+    
+    }
+    .Nav{
+      
+        margin-left: 1%;
+    }
+}
+@media screen and (max-width:601px) {
+    .Main_Navbar{
+        padding-top: 0rem;
+        padding-right: 2%;
+        height: 100%;
+        background-color: #C6FCE5 !important;
+    font-size: 1.5rem;
+    color: #00f891 !important;
+    
+    }
+    .searchbar{
+        border: 2px solid #00d47c;
+        outline: none !important;
+        width: 60%;
+        margin-left: 15%;
+        outline-offset: none;
+        background-color: #00f891 !important;
+    }
+   
+    .NavElements{
+        padding: 0.5rem;
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-between;
+    margin-left:0%;
+        text-decoration: none;
+    font-weight: 600;
+        color: rgb(0, 255, 149) !important;
+    
+    }
+    .Nav{
+      
+        margin-left: 1%;
+    }
+}
+.logout:hover{
+    cursor: pointer !important;
+color: rgb(255, 59, 59) !important;
+}
+.me-auto  .my-2 .my-lg-0 .Inner_Nav_div .Inner_Nav_div_user .navbar-nav .navbar-nav-scroll{
+max-height: 112px;
+}

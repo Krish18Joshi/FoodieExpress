@@ -1,0 +1,3 @@
+*node_modules/*
+/foodiexpress/node_modules
+/foodiexpress/package-lock.json

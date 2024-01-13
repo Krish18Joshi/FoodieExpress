@@ -171,6 +171,9 @@
 .button-88{
   display: flex;
 }
+.h222{
+  text-align: center;
+}
 @media screen and (max-width:500px) {
 
   .inner_div_login{

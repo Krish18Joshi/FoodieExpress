@@ -39,7 +39,18 @@ export default function Singup() {
   const UserData = async(event)=>{
 SetuserData({...userData,[event.target.name]:event.target.value})
   }
-  console.log(userData);
+  const [chekboxValue ,SchekboxValue] = useState(false);
+
+const showButton = event => {
+  if (event.target.checked) {
+    
+    SchekboxValue(true);
+    console.log(chekboxValue)
+  } else {
+    SchekboxValue(false);
+  }
+ 
+};
     return (
         <>
               <NavbarMain/>
@@ -69,13 +80,18 @@ SetuserData({...userData,[event.target.name]:event.target.value})
          <br></br>
        
           <h6>
-          <input className='checkbox'  type='checkbox'></input> I agree to FoodieExpress's Terms of Service, Privacy Policy and Content Policies</h6>
-          <button class="button-88" role="button" type='submit'>Create account</button>
+          <input className='checkbox' id='checkbox' type='checkbox' onChange={showButton} value={true}></input> I agree to FoodieExpress's Terms of Service, Privacy Policy and Content Policies</h6>
+          {chekboxValue ? (
+            <button class="button-88" role="button" type='submit'>Create account</button>
+      ) : (
+        <h5 class="button-88" >Please select the above box up.</h5>
+      )}
           </form>
           <br></br>
-          <h5>Already have an account?<Link to={"/Login"}  className='Create_account'> Log in</Link></h5>
           
          
+        
+      <h5>Already have an account?<Link to={"/Login"}  className='Create_account'> Log in</Link></h5>
           </div>
         </div>
         <Footer />

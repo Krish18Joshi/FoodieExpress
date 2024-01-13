@@ -14,16 +14,16 @@ export default function Footer() {
    <div class="footer">
    <div class="row">
    <ul>
-   <li><a href='https://krish-joshi-6a7d4.web.app/' target='_blank'>Contact</a></li>
-   <li><a href='https://krish-joshi-6a7d4.web.app/' target='_blank'>Our Services</a></li>
-   <li><a href='https://krish-joshi-6a7d4.web.app/' target='_blank'>Privacy Policy</a></li>
-   <li><a href='https://krish-joshi-6a7d4.web.app/' target='_blank'>Terms & Conditions</a></li>
-   <li><a href='https://krish-joshi-6a7d4.web.app/' target='_blank'>Career</a></li>
+   <li><a href='https://krishjoshi.tech/' target='_blank'>Contact</a></li>
+   <li><a href='https://krishjoshi.tech/' target='_blank'>Our Services</a></li>
+   <li><a href='https://krishjoshi.tech/' target='_blank'>Privacy Policy</a></li>
+   <li><a href='https://krishjoshi.tech/' target='_blank'>Terms & Conditions</a></li>
+   <li><a href='https://krishjoshi.tech/' target='_blank'>Career</a></li>
    </ul>
    
    </div>
    
-   <div class="row" >
+   <div class="row"  href ="https://krishjoshi.tech/">
    KRISH JOSHI Copyright © 2024  - All rights reserved || Designed By: Krish joshi 
    </div>
    </div>

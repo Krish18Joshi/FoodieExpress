@@ -13,7 +13,7 @@
 .Front_Page_SubDiv_left{
 
     display: flex;
-    background-color: rgb(0, 252, 252);
+    background-color: rgba(0, 252, 252, 0);
     width: 40.5rem;
     border: none;
     height: 100%;
@@ -24,7 +24,7 @@
 }
 .Front_Page_SubDiv_right{
     display: flex;
-    background-color: rgb(224, 254, 0);
+    background-color: rgba(224, 254, 0, 0);
     width: 40.5rem;
     height: 100%;
     min-height: 32.5rem;
@@ -33,7 +33,7 @@
     .Front_Page_SubDiv_left{
 
         display: flex;
-        background-color: rgb(0, 252, 252);
+        background-color: rgba(0, 252, 252, 0);
         width: 35.5rem;
         border: none;
         height: 100%;
@@ -41,7 +41,7 @@
     }
     .Front_Page_SubDiv_right{
         display: flex;
-        background-color: rgb(224, 254, 0);
+        background-color: rgba(224, 254, 0, 0);
         width: 35.5rem;
         height: 100%;
         min-height: 28.5rem;
@@ -51,7 +51,7 @@
     .Front_Page_SubDiv_left{
 
         display: flex;
-        background-color: rgb(0, 252, 252);
+        background-color: rgba(0, 252, 252, 0);
         width: 30.5rem;
         border: none;
         height: 100%;
@@ -59,7 +59,7 @@
     }
     .Front_Page_SubDiv_right{
         display: flex;
-        background-color: rgb(224, 254, 0);
+        background-color: rgba(224, 254, 0, 0);
         width: 30.5rem;
         height: 100%;
         min-height: 24.5rem;
@@ -72,7 +72,7 @@
     .Front_Page_SubDiv_left{
 
         display: flex;
-        background-color: rgb(0, 252, 252);
+        background-color: rgba(0, 252, 252, 0);
         width: 40rem;
         border: none;
         height: 100%;
@@ -80,7 +80,7 @@
     }
     .Front_Page_SubDiv_right{
         display: flex;
-        background-color: rgb(224, 254, 0);
+        background-color: rgba(224, 254, 0, 0);
         width: 40rem;
         height: 100%;
         min-height: 32rem;
@@ -93,7 +93,7 @@
     .Front_Page_SubDiv_left{
 
         display: flex;
-        background-color: rgb(0, 252, 252);
+        background-color: rgba(0, 252, 252, 0);
         width: 32rem;
         border: none;
         height: 100%;
@@ -101,7 +101,7 @@
     }
     .Front_Page_SubDiv_right{
         display: flex;
-        background-color: rgb(224, 254, 0);
+        background-color: rgba(224, 254, 0, 0);
         width: 32rem;
         height: 100%;
         min-height: 25.5rem;
@@ -114,7 +114,7 @@
     .Front_Page_SubDiv_left{
 
         display: flex;
-        background-color: rgb(0, 252, 252);
+        background-color: rgba(0, 252, 252, 0);
         width: 25rem;
         border: none;
         height: 100%;
@@ -122,7 +122,7 @@
     }
     .Front_Page_SubDiv_right{
         display: flex;
-        background-color: rgb(224, 254, 0);
+        background-color: rgba(224, 254, 0, 0);
         width: 25rem;
         height: 100%;
         min-height: 20.5rem;
@@ -135,7 +135,7 @@
     .Front_Page_SubDiv_left{
 
         display: flex;
-        background-color: rgb(0, 252, 252);
+        background-color: rgba(0, 252, 252, 0);
         width: 23rem;
         border: none;
         height: 100%;
@@ -143,7 +143,7 @@
     }
     .Front_Page_SubDiv_right{
         display: flex;
-        background-color: rgb(224, 254, 0);
+        background-color: rgba(224, 254, 0, 0);
         width: 23rem;
         height: 100%;
         min-height: 18.5rem;
@@ -156,7 +156,7 @@
     .Front_Page_SubDiv_left{
 
         display: flex;
-        background-color: rgb(0, 252, 252);
+        background-color: rgba(0, 252, 252, 0);
         width: 18.5rem;
         border: none;
         height: 100%;
@@ -164,7 +164,7 @@
     }
     .Front_Page_SubDiv_right{
         display: flex;
-        background-color: rgb(224, 254, 0);
+        background-color: rgba(224, 254, 0, 0);
         width: 18.5rem;
         height: 100%;
         min-height: 15.5rem;
@@ -177,7 +177,7 @@
     .Front_Page_SubDiv_left{
 
         display: flex;
-        background-color: rgb(0, 252, 252);
+        background-color: rgba(0, 252, 252, 0);
         width: 15.5rem;
         border: none;
         height: 100%;
@@ -185,7 +185,7 @@
     }
     .Front_Page_SubDiv_right{
         display: flex;
-        background-color: rgb(224, 254, 0);
+        background-color: rgba(224, 254, 0, 0);
         width: 15.5rem;
         height: 100%;
         min-height: 12.5rem;
